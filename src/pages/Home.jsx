@@ -8,6 +8,7 @@ import icono03 from './../assets/images/icon03.png'
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
 import About from '../components/About/About'
+import ServicesList from '../components/Services/ServicesList'
 
 const Home = () => {
   return (
@@ -133,6 +134,22 @@ const Home = () => {
       {/* === about section === */}
       <About />
       {/* === end about section === */}
+
+      {/* === Services section === */}
+      <section>
+        <div className='container'>
+          <div className='xl:w-[470px] mx-auto'>
+            <h2 className='heading text-center'>
+              Nuestros servicios de reclutamiento
+            </h2>
+            <p className='text__para text-center'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab adipisci tempora hic? Temporibus autem reiciendis
+            </p>
+          </div>
+          <ServicesList />
+        </div>
+      </section>
+      {/* === end Services section === */}
 
     </>
   )
