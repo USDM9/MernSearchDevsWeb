@@ -7,6 +7,7 @@ import icono02 from './../assets/images/icon02.png'
 import icono03 from './../assets/images/icon03.png'
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
+import About from '../components/About/About'
 
 const Home = () => {
   return (
@@ -67,65 +68,71 @@ const Home = () => {
       {/* === HERO section end === */}
 
       {/* === HERO section === */}
-      <div className='container'>
-        <div className='lg:w-[470px] mx-auto'>
-          <h2 className='heading text-center'>
-            Reduce los tiempos de contratacion
-          </h2>
-          <p className='text__para text-center'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem sint sed dicta nihil adipisci
-          </p>
-        </div>
-      </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]'>
-
-        <div className='py-[30px] px-5'>
-          <div className='flex items-center justify-center'>
-            <img src={icono01} alt='' />
-          </div>
-          <div className='mt-[30px]'>
-            <h2 className='text-[26px] leading-9 text-hedingColor font-[700] text-center'>Encuentra un Dev</h2>
-            <p className='text-[16px] text-center leading-7 text-textColor font-[400] mt-4'>
+      <section>
+        <div className='container'>
+          <div className='lg:w-[470px] mx-auto'>
+            <h2 className='heading text-center'>
+              Reduce los tiempos de contratacion
+            </h2>
+            <p className='text__para text-center'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem sint sed dicta nihil adipisci
             </p>
-            <Link to='/developers' className='w-[44px] h-[44px] rounded-full border border-solid border-[#18141E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-yellowColor hover:border-none'>
-              <BsArrowRight className='group-hover:text-white w-6 h-5' />
-            </Link>
           </div>
         </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]'>
 
-        <div className='py-[30px] px-5'>
-          <div className='flex items-center justify-center'>
-            <img src={icono02} alt='' />
+          <div className='py-[30px] px-5'>
+            <div className='flex items-center justify-center'>
+              <img src={icono01} alt='' />
+            </div>
+            <div className='mt-[30px]'>
+              <h2 className='text-[26px] leading-9 text-hedingColor font-[700] text-center'>Encuentra un Dev</h2>
+              <p className='text-[16px] text-center leading-7 text-textColor font-[400] mt-4'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem sint sed dicta nihil adipisci
+              </p>
+              <Link to='/developers' className='w-[44px] h-[44px] rounded-full border border-solid border-[#18141E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-yellowColor hover:border-none'>
+                <BsArrowRight className='group-hover:text-white w-6 h-5' />
+              </Link>
+            </div>
           </div>
-          <div className='mt-[30px]'>
-            <h2 className='text-[26px] leading-9 text-hedingColor font-[700] text-center'>Busca por pais</h2>
-            <p className='text-[16px] text-center leading-7 text-textColor font-[400] mt-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem sint sed dicta nihil adipisci
-            </p>
-            <Link to='/developers' className='w-[44px] h-[44px] rounded-full border border-solid border-[#18141E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-yellowColor hover:border-none'>
-              <BsArrowRight className='group-hover:text-white w-6 h-5' />
-            </Link>
+
+          <div className='py-[30px] px-5'>
+            <div className='flex items-center justify-center'>
+              <img src={icono02} alt='' />
+            </div>
+            <div className='mt-[30px]'>
+              <h2 className='text-[26px] leading-9 text-hedingColor font-[700] text-center'>Busca por pais</h2>
+              <p className='text-[16px] text-center leading-7 text-textColor font-[400] mt-4'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem sint sed dicta nihil adipisci
+              </p>
+              <Link to='/developers' className='w-[44px] h-[44px] rounded-full border border-solid border-[#18141E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-yellowColor hover:border-none'>
+                <BsArrowRight className='group-hover:text-white w-6 h-5' />
+              </Link>
+            </div>
           </div>
+
+          <div className='py-[30px] px-5'>
+            <div className='flex items-center justify-center'>
+              <img src={icono03} alt='' />
+            </div>
+            <div className='mt-[30px]'>
+              <h2 className='text-[26px] leading-9 text-hedingColor font-[700] text-center'>Pide una cita</h2>
+              <p className='text-[16px] text-center leading-7 text-textColor font-[400] mt-4'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem sint sed dicta nihil adipisci
+              </p>
+              <Link to='/developers' className='w-[44px] h-[44px] rounded-full border border-solid border-[#18141E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-yellowColor hover:border-none'>
+                <BsArrowRight className='group-hover:text-white w-6 h-5' />
+              </Link>
+            </div>
+          </div>
+
         </div>
+      </section>
+      {/* === end section === */}
 
-        <div className='py-[30px] px-5'>
-          <div className='flex items-center justify-center'>
-            <img src={icono03} alt='' />
-          </div>
-          <div className='mt-[30px]'>
-            <h2 className='text-[26px] leading-9 text-hedingColor font-[700] text-center'>Pide una cita</h2>
-            <p className='text-[16px] text-center leading-7 text-textColor font-[400] mt-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem sint sed dicta nihil adipisci
-            </p>
-            <Link to='/developers' className='w-[44px] h-[44px] rounded-full border border-solid border-[#18141E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-yellowColor hover:border-none'>
-              <BsArrowRight className='group-hover:text-white w-6 h-5' />
-            </Link>
-          </div>
-        </div>
-
-      </div>
-      {/* === HERO section === */}
+      {/* === about section === */}
+      <About />
+      {/* === end about section === */}
 
     </>
   )
