@@ -12,8 +12,8 @@
     .container {
         @apply max-w-full w-[1400px] px-5 mx-auto
     }
-    .btn {
-        @apply primaryColor py-[15px] px-[35px] rounded-sm[50px] text-white font-[600] mt-[38px]
+    .btn{
+        @apply bg-yellowColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px]
     }
     .heading{
         @apply text-[44px] leading-[54px] font-[700] text-headingColor
@@ -23,6 +23,11 @@
     }
     .header{
         @apply bg-[url('./assets/images/mask.png')]  bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px]
+    }
+
+    .hero__section{
+        @apply bg-[url('./assets/images/hero-bg.png')]  bg-no-repeat bg-center bg-cover
+
     }
 }
 
