@@ -1,7 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from 'swiper/modules'
-import 'Swiper/css'
+import 'swiper/css'
 import 'swiper/css/pagination'
 import devAvatar from './../../assets/images/client-avatar.png'
 import { HiStar } from 'react-icons/hi'
