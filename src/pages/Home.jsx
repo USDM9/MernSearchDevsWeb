@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
 import About from '../components/About/About'
 import ServicesList from '../components/Services/ServicesList'
+import DevList from '../components/Devs/DevList'
 
 const Home = () => {
   return (
@@ -211,6 +212,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <DevList />
         </div>
       </section>
       {/* === end Features section === */}
