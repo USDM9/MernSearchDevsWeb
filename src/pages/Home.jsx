@@ -17,6 +17,7 @@ import About from '../components/About/About'
 import ServicesList from '../components/Services/ServicesList'
 import DevList from '../components/Devs/DevList'
 import FaqsList from '../components/Faqs/FaqsList'
+import Testimonial from '../components/Testimonial/Testimonial'
 
 const Home = () => {
   return (
@@ -146,7 +147,7 @@ const Home = () => {
       {/* === Services section === */}
       <section>
         <div className='container'>
-          <div className='xl:w-[470px] mx-auto'>
+          <div className=' mx-auto'>
             <h2 className='heading text-center'>
               Nuestros servicios de reclutamiento
             </h2>
@@ -221,7 +222,7 @@ const Home = () => {
       </section>
       {/* === end Features/Devs section === */}
 
-      {/* === Preguntas frequentes section  === */}
+      {/* === Faq section  === */}
       <section>
         <div className='container'>
           <div className='flex justify-between gap-[50px] lg:gap-[0]'>
@@ -235,7 +236,26 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* === end Preguntas frequentes section  === */}
+      {/* === end Faq section  === */}
+
+      {/* === Testimonial section  === */}
+      <section>
+        <div className='container'>
+          <div className=' mx-auto'>
+            <h2 className='heading text-center'>
+              Lo que dicen de nosotros
+            </h2>
+            <p className='text__para text-center'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem sint sed dicta nihil adipisci
+            </p>
+          </div>
+          <Testimonial />
+        </div>
+      </section>
+      {/* === end Testimonial section  === */}
+
+      {/* === Footer  === */}
+      {/* === end Footer  === */}
 
     </>
   )
