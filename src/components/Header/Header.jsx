@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import logo from './../../assets/images/logo.png'
 import userImg from './../../assets/images/client-avatar.png'
 import { NavLink, Link } from 'react-router-dom'
-import { BiMenu } from 'react-icons/Bi'
+import { BiMenu } from 'react-icons/bi'
 
 const navLinks = [
   {
